@@ -5,7 +5,7 @@ import UIKit
 
 // Vetores e Matrizes
 
-let ArraydeStrings = ["Marcos","Vinicius","Albuqeurque"]
+let ArraydeStrings = ["Marcos","Vinicius","Albuquerque"]
 var arraydestring = ["Rosana", "Albuquerque"]
 
 // Explicitando o tipo do vetor
@@ -14,9 +14,8 @@ var arraydeinteiros : [Int] = [1,2,3,4,5]
 
 // Criando um vetor vazio
 let ArraydeDecimais : [Double] = [ ]
-
+//
 var arraydedecimais : [Double] = [ ]
-
 
 // Acessando elementos do vetor através de índice
 
@@ -25,7 +24,6 @@ var arraydedecimais : [Double] = [ ]
 ArraydeStrings[1]
 
 // Tamanho do vetor
-
 ArraydeStrings.count
 
 
@@ -42,14 +40,12 @@ arraydeinteiros.removeAtIndex(0)
 arraydeinteiros
 
 //Laços em vetores
-
 for var i=0; i<arraydestring.count; i++ {
     var str = arraydestring[i]
     print(str)
 }
 
 //Atribui o valor da string de cada elemento do vetor à variável str
-
 for str in arraydestring {
 
 print(str)
