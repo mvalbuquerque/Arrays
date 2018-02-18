@@ -4,6 +4,7 @@ Swift Playground (Arrays)
 //: Playground - noun: a place where people can play
 import UIKit
 
+```swift
 
 // Vetores e Matrizes
 let ArraydeStrings = ["Marcos","Vinicius","Albuquerque"]
@@ -57,3 +58,5 @@ var matriz = [[20,40],[80,90]]
 matriz.append([60,70])
 
 matriz[1][1]
+```
+
